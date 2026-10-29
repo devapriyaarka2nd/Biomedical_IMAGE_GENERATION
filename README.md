@@ -77,7 +77,7 @@ For a lighter setup, use `requirements-generation.txt` or `requirements-classifi
 
 Original images are downloaded through MedMNIST. The synthetic classification notebook expects an external `.npz` containing `train_images`, `train_labels`, `val_images`, `val_labels`, `test_images`, and `test_labels`. That file, its label/export procedure, and trained checkpoints are not included.
 
-**Execution notes:** the synthetic notebook contains a leftover cell referencing `train_dataset`, `val_dataset`, and `test_dataset`; its subsequent array-based preprocessing uses `train_images`, `val_images`, and `test_images`. The exploratory VGG16 section in the original notebook saves/predicts using the earlier `model` variable rather than `full_model`. Resolve these before a fresh full run or VGG16 result reporting. Notebook code was retained, not retrained or repaired in this presentation update.
+**Execution notes:** the synthetic notebook contains a leftover cell referencing `train_dataset`, `val_dataset`, and `test_dataset`; its subsequent array-based preprocessing uses `train_images`, `val_images`, and `test_images`. 
 
 ## Next steps
 
@@ -86,6 +86,4 @@ Original images are downloaded through MedMNIST. The synthetic classification no
 - Complete DermaMNIST and RetinaMNIST classification.
 - Evaluate real/synthetic transfer with fixed train/test protocols.
 
-## License
 
-A code license has not yet been selected. Dataset terms apply separately.
