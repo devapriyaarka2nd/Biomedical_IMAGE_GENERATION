@@ -1,0 +1,2 @@
+-r requirements-generation.txt
+-r requirements-classification.txt

@@ -1,0 +1,12 @@
+torch
+torchvision
+lightning
+torchmetrics
+medmnist
+torch-fidelity
+numpy
+matplotlib
+pillow
+opencv-python
+tqdm
+jupyterlab

@@ -1,0 +1,9 @@
+tensorflow
+keras
+medmnist
+numpy
+matplotlib
+scikit-learn
+pillow
+pydot
+jupyterlab
